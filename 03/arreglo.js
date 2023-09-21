@@ -1,0 +1,12 @@
+/* use un nombre del arreglo en singular porque no recordaba que se tenia que poner en general y si lo cambio
+tendría que cambiar como 20 referencias mas jsjsa
+*/
+const local = [
+    { id: 1, ciudad: "Manta", nombre: "Luxo", capacidad: 150, direccion: "flavio reyes", descripcion: "N/A" },
+    { id: 2, ciudad: "Manta", nombre: "la cuadra", capacidad: 250, direccion: "via barbasquillo", descripcion: "N/A" },
+    { id: 3, ciudad: "Portoviejo", nombre: "Recultura", capacidad: 150, direccion: "Al lado del tia", descripcion: "N/A" },
+    { id: 4, ciudad: "Quito", nombre: "Guabra", capacidad: 350, direccion: "Al lado del panesillo", descripcion: "N/A" },
+    { id: 5, ciudad: "Guayaquil", nombre: "El ritmo", capacidad: 200, direccion: "Via samborondon", descripcion: "N/A" },
+  ];
+   //exportamos el arreglo
+   module.exports=local
